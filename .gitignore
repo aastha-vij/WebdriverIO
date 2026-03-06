@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Logs and reports
+logs/
+*.log
+npm-debug.log*
+allure-results/
+allure-report/
+*.png
+*.mp4
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build / cache
+dist/
+.cache/
+coverage/
+.nyc_output/
+
+# WDIO
+*.tgz
